@@ -67,6 +67,7 @@ Refer below notebook to transformations and code used to mount ADLS Gen2 to Data
 Create SQL script to Perform Exploratory data analysis using SQL.
 You can also use PowerBI to generate your analysis reports.
  <img src="Assets/vizS.png">
+ Dashboard Created.
  <img src="Data Reporting/Data-visualisation.png">
 
 Refer to the SQL scripts used for data analysis 
