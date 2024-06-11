@@ -40,7 +40,7 @@ Source(Kaggle): [2021 Olympics in Tokyo](https://www.kaggle.com/datasets/arjunpr
 <img src="Assets/datafactory_pipeline.png">  
 10. After the pipeline completes its execution, navigate to your Azure Data Lake Storage Gen2. Dive into the "raw_data" folder and validate that the files, like "athletes.csv", "medals.csv", etc., are present and populated with the expected data.
 
- <img src="Images/raw_data_in_storage.png">
+ <img src="Assets/RAW DATA folder insideS.png">
 
 ## Data Transformation using Azure Databricks
 1. Navigate to Azure Databricks within the Azure portal and create a workspace within the previously established resource group and launch it.
@@ -50,8 +50,8 @@ Source(Kaggle): [2021 Olympics in Tokyo](https://www.kaggle.com/datasets/arjunpr
 5. Using the credentials (Client ID, Tenant ID, Secret), write the appropriate code in the Databricks notebook to mount ADLS. 
 6. Writing Data Transformations mount ADLS Gen2 to Databricks.
 7. Writing Transformed Data to ADLS Gen2.
- <img src="Images/transformed_data_tables.png">
-  <img src="Images/transformed_data_contents.png">
+ <img src="Assets/transformed data folders listS.png">
+  <img src="Assets/ATHELETS folder insideS.png">
 Refer below notebook to transformations and code used to mount ADLS Gen2 to Databricks.
 
 img![Tokyo Olympics Transformation.ipynb](https://github.com/shubhammirajkar/tokyo_olympic_de_project/blob/main/Tokyo%20Olympics%20Transformation.ipynb)
@@ -60,13 +60,13 @@ img![Tokyo Olympics Transformation.ipynb](https://github.com/shubhammirajkar/tok
 1. Creating a Synapse Analytics Workspace.
 2. Within Workspace navigate to the "Data" section, choose "Lake Database"  and create a Database "TokyoOlympicDB"
 3. Creating Table from Data Lake  from the Transformed Data folder within your ADLS Gen2 storage.
- <img src="Images/synapse_database_creation.png">
+ <img src="Assets/db query.png">
  
 ## Performing Data Analysis on the Data
 
 Create SQL script to Perform Exploratory data analysis using SQL.
 You can also use PowerBI to generate your analysis reports.
- <img src="Images/synapse_analytics_report.png">
+ <img src="Assets/vizS.png">
 
 Refer to the SQL scripts used for data analysis 
 [Tokyo Olympics SQL script.sql](https://github.com/shubhammirajkar/tokyo_olympic_de_project/blob/main/Tokyo%20Olympics%20SQL%20script.sql)
