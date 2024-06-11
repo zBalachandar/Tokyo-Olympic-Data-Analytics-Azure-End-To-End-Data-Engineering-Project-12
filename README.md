@@ -67,6 +67,7 @@ Refer below notebook to transformations and code used to mount ADLS Gen2 to Data
 Create SQL script to Perform Exploratory data analysis using SQL.
 You can also use PowerBI to generate your analysis reports.
  <img src="Assets/vizS.png">
+ <img src="Data Reporting/Data-visualisation.png">
 
 Refer to the SQL scripts used for data analysis 
 [Tokyo Olympics SQL script.sql](https://github.com/zBalachandar/Tokyo-Olympic-Data-Analytics-Azure-End-To-End-Data-Engineering-Project.-/blob/main/Sql%20query/SQL%20script%201.sql)
