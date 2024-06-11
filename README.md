@@ -54,7 +54,7 @@ Source(Kaggle): [2021 Olympics in Tokyo](https://www.kaggle.com/datasets/arjunpr
   <img src="Assets/ATHELETS folder insideS.png">
 Refer below notebook to transformations and code used to mount ADLS Gen2 to Databricks.
 
-img![Tokyo Olympics Transformation.ipynb](https://github.com/zBalachandar/Tokyo-Olympic-Data-Analytics-Azure-End-To-End-Data-Engineering-Project.-/blob/main/Data%20Bricks%20Notebooks/Tokyo%20Olympic%20Transformation%20.ipynb)
+[Tokyo Olympics Transformation.ipynb](https://github.com/zBalachandar/Tokyo-Olympic-Data-Analytics-Azure-End-To-End-Data-Engineering-Project.-/blob/main/Data%20Bricks%20Notebooks/Tokyo%20Olympic%20Transformation%20.ipynb)
 
 ## Setting Up and Using Azure Synapse Analytics
 1. Creating a Synapse Analytics Workspace.
