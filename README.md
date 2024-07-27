@@ -1,4 +1,4 @@
-# Tokyo Olympics Data Analytics | Azure End-To-End Data Engineering Project 
+# Tokyo Olympics Data Analytics | Azure End-To-End Data Engineering Project -12
 
 
 ## Description
@@ -46,7 +46,7 @@ Source(Kaggle): [2021 Olympics in Tokyo](https://www.kaggle.com/datasets/arjunpr
 1. Navigate to Azure Databricks within the Azure portal and create a workspace within the previously established resource group and launch it.
 2. Configuring Compute in Databricks
 3. Create a new notebook within Databricks and rename it appropriately, reflecting its purpose or the dataset it pertains to.
-4. Establishing a Connection to Azure Data Lake Storage (ADLS)
+4. Establishing a Connection to Azure Data Lake Storage (ADLS).
 5. Using the credentials (Client ID, Tenant ID, Secret), write the appropriate code in the Databricks notebook to mount ADLS. 
 6. Writing Data Transformations mount ADLS Gen2 to Databricks.
 7. Writing Transformed Data to ADLS Gen2.
@@ -59,7 +59,7 @@ Refer below notebook to transformations and code used to mount ADLS Gen2 to Data
 ## Setting Up and Using Azure Synapse Analytics
 1. Creating a Synapse Analytics Workspace.
 2. Within Workspace navigate to the "Data" section, choose "Lake Database"  and create a Database "TokyoOlympicDB"
-3. Creating Table from Data Lake  from the Transformed Data folder within your ADLS Gen2 storage.
+3. Creating Table from Data Lake from the Transformed Data folder within your ADLS Gen2 storage.
  <img src="Assets/db query.png">
  
 ## Performing Data Analysis on the Data
